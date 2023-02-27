@@ -1,0 +1,109 @@
+/* Style 2 / 1440px desktop
+--------------------------------------------------------------------------------------------------------*/
+:root {
+    --bg-color: #E7E7F3;
+    --text: #584921;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+}
+
+/* Header
+--------------------------------------------------------------------------------------------------------*/
+.header{
+    height: 498px;
+    margin-top: 70px;
+    background-color: darkseagreen;
+    background-image: url(../imgs/style2_design1.jpg);
+    background-repeat: no-repeat;
+    background-position: top center ;
+    background-size: cover;
+}
+
+.title {
+    color: #660066;
+    font-size: 40px;
+    font-style: italic;
+    transform: translateY(-50px);
+    padding-left: 1.5rem;
+}
+
+.subtitle {
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgb(11, 92, 15);
+    transform: translateY(414px);
+    height: 50px;
+    padding-top: 1rem;
+}
+
+
+/* Navigation Bar
+--------------------------------------------------------------------------------------------------------*/
+.navbar{
+    position: absolute;
+    top: 40px;
+    right: 5px;
+}
+
+.item {
+    display: inline-block;
+    list-style: none;
+    margin-right: 5px;
+}
+
+.link {
+    padding: 3px 10px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(21, 241, 168);
+    background-color: rgb(11, 92, 15);
+    box-shadow: 3px 2px 0 rgb(39, 85, 67);
+}
+
+.navbar .current{
+    background-color: rgb(25,187, 25);
+}
+
+/* Text Boxes
+--------------------------------------------------------------------------------------------------------*/
+.container {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.figure {
+    width: 25%;
+    margin-top: 3rem;
+}
+
+.img_logo{
+    width: 160px;
+    transform: translateY(50px);
+}
+
+.events {
+    width: 80%;
+    margin-top: 8rem;
+    margin-right: 9rem;
+    color: #584921;
+}
+
+.subtitle_event {
+    font-style: italic;
+}
+
+.text_event {
+    margin: 15px;
+    text-indent: 25px;
+}
+
+/* About section -------------------------------- */
+
+.about_text {
+    font-size: 1.2rem;
+    padding-left: 1.1rem;
+}

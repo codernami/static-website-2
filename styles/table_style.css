@@ -1,0 +1,110 @@
+/* Tables _ Fall Schedule
+-----------------------------------------------------------------------------------*/
+
+/* Tables _ Fall Schedule
+-----------------------------------------------------------------------------------*/
+.information {
+    width: 80%;
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
+}
+
+
+.tables {   
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+
+.table_header {
+    text-align: left;
+    color: var(--text);
+    margin-bottom: 2rem;
+}
+
+.table_title {
+    padding-left: 14rem;
+    font-size: 1.7rem;
+    margin-bottom: 50px;
+}
+
+.table_text{
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-bottom: 1.6rem;
+    margin-left: 2rem;
+}
+
+.table_line {
+    text-decoration: underline;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+}
+
+.caption_locations {
+    color: var(--text);
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.table_september,
+.table_october, 
+.table_locations,
+.table_information {
+    font-size: large;
+    width: 70%;  
+    margin: 1.8rem 2rem;
+    border-collapse: collapse;
+    text-align: center; 
+    color: rgb(78, 5, 72);
+}
+
+th {
+    text-decoration: underline; 
+    color: whitesmoke;
+    background-color: rgb(161, 76, 154);    
+}
+
+td {
+    vertical-align: top;
+    border: 2px solid green;
+    background-color: lightgray;
+}
+
+.table_locations,
+.table_information tr {
+    text-align: left;
+}
+
+
+.table_locations,
+.table_information td {
+    border: 1px solid #878751;
+    padding: .5rem;
+}
+
+.nombres_left {
+    text-align: left;
+}
+
+
+
+/* Maps
+--------------------------------------------------------------------------------------------------------*/
+.maps {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.map {
+    float: left;
+    margin: 25px;
+    color: var(--text);
+}
+
+iframe {
+    margin-top: 5px;
+    margin-bottom: 5px;   
+    border: 2px solid green;
+}

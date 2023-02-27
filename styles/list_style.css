@@ -1,0 +1,41 @@
+/* Lists _ Rules of Play and Policies
+-----------------------------------------------------------------------------------*/
+.rules {
+    width: 80%;
+    margin-top: 6rem;
+    margin-right: 2rem;
+    margin-bottom: 4rem;
+    padding: 4rem;
+    color: var(--text);
+    background-color: #F6EDD9;
+    border: 1px solid #D7C1B2;
+    font-size: 1rem;
+}
+
+.header_rules {
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.list_rules {
+    line-height: 1.8rem;
+    margin-top: .8rem;
+    list-style-position: inside;
+}
+
+.list_rules h4 {
+    font-weight: bold;
+    margin-bottom: 5px;   
+}
+
+.list_rules ul, 
+ol {
+    margin-left: 1.3rem;
+}
+
+.list_rules_type_latin li{
+    list-style-type: lower-latin;
+    margin-left: 1.3rem;  
+}

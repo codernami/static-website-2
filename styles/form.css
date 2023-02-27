@@ -1,0 +1,81 @@
+/* Form
+--------------------------------------------------------------------------------------------------------*/
+
+.section_form{
+    margin: 20px 150px 90px 300px;
+    background-color: rgb(217, 201, 245);
+}
+
+.form_title{
+    margin-top: 10px;
+    margin-left: 145px;
+    padding: 30px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+form {
+    font: 16px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 10px;
+    color: rgb(19, 5, 100);
+    border: 2px solid purple;
+}
+
+label {
+    line-height: 45px;
+    margin: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+form fieldset + fieldset {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+}
+
+input {
+    font-size: 15px;
+    padding: 5px;    
+}
+
+input[type=radio] {
+    margin: 5px;
+}
+
+input[type=checkbox] {
+    margin: 10px;
+}
+
+#schools1,
+#schools2,
+#jersey_size,
+#shorts_size {
+    font-size: 15px;
+}
+
+.section_form_one,
+.section_form_six {
+    border: none;
+}
+
+.section_form_text {
+    line-height: 25px;
+    margin-bottom: 10px;    
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn {
+    font-size: 14px;
+    float: right;
+    margin-top: 20px;
+    margin-right: -10px;
+    padding: 11px 30px;
+    color: white;
+    border-radius: 5px;
+    background: #5d13b1;
+}
