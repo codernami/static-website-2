@@ -17,7 +17,7 @@ body {
     height: 498px;
     margin-top: 70px;
     background-color: darkseagreen;
-    background-image: url(../imgs/style2_design1.jpg);
+    background-image: url(./imgs/style2_design1.jpg);
     background-repeat: no-repeat;
     background-position: top center ;
     background-size: cover;
